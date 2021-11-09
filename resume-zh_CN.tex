@@ -1,0 +1,110 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{林仁泽}
+
+\basicInfo{
+  \email{linrenze188@qq.com} \textperiodcentered\ 
+  \phone{(+86) 188-152-20107} 
+  %\textperiodcentered\ 
+  %\linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{湖南工程学院}, 湖南湘潭}{2019 -- 2023}
+\textit{学士}\ 人工智能
+
+\section{\faHeartO\ 奖项 / 荣誉}
+\datedline{2020年全国大学生数学建模竞赛湖南赛区\textit{三等奖}}{2020 年10 月}
+\datedline{第十一届蓝桥杯C/C++程序设计竞赛省\textit{二等奖}}{2020 年10 月}
+\datedline{第二届全国大学生算法设计与编程挑战赛\textit{铜奖}}{2021 年3 月}
+\datedline{第十九届Acwing杯北京大学程序设计竞赛\textit{三等奖}}{2021 年5 月}
+\datedline{第十二届蓝桥杯C/C++程序设计竞赛省\textit{一等奖}}{2021 年5 月}
+\datedline{2021年第四届中青杯全国大学生数学建模竞赛\textit{三等奖}}{2021 年6 月}
+\datedline{第三届全国大学生算法设计与编程挑战赛\textit{铜奖}}{2021 年11 月}
+\datedline{2021年全国大学生数学建模竞赛国家\textit{二等奖}}{2021 年11 月}
+\datedline{2020年度湖南工程学院优秀共青团员}{2021 年4 月}
+\datedline{2021年湖南工程学院十佳读书之星}{2021 年9 月}
+
+
+
+\section{\faUsers\ 实习/项目经历}
+%\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
+%\role{实习}{经理: 高富帅}
+%xxx后端开发
+%\begin{itemize}
+%  \item 实现了 xxx 特性
+%  \item 后台资源占用率减少8\%
+%  \item xxx
+%\end{itemize}
+
+
+\datedsubsection{\textbf{基于多模型迁移预训练文章质量判别}}{2021年6月 -- 2021年9月}
+\role{python}{2021DIGIX全球校园AI算法精英大赛比赛项目}
+\begin{onehalfspacing}
+	给定一些带标记的文章，要求判断测试集中的文章是否在其类别中为优质文章
+	\begin{itemize}
+		\item 使用BERT模型对大量未标记文本进行预训练，提高了训练的准确度。
+		\item 使用LSTM网络对不同类别的文章进行质量判别,提高了识别的准确度。
+		\item 随机筛选正样本和负样本，提高了训练的鲁棒性。
+	\end{itemize}
+\end{onehalfspacing}
+
+
+\datedsubsection{\textbf{基于PyQt5实现微型计算器}}{2020年12月 -- 2021年1月}
+\role{python}{课程设计项目}
+\begin{onehalfspacing}
+	使用PyQt5实现计算机界面，并完成内在逻辑关系设计
+	\begin{itemize}
+		\item 对用户使用的体验进行分析和研究，制定了用户方便使用的UI界面方案
+		\item 分析了科学计算器的计算逻辑关系，设定计算器对应的算法
+		\item 运用python及相关库(PyQt5，math)对上述分析以及想法进行实现
+	\end{itemize}
+\end{onehalfspacing}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C , C++, Python, matlab
+  \item 对使用Linux系统进行开发具有一定基础，接触过linux服务器搭建。
+  \item 能较好的运用git管理项目，使用ssh远程登录,并使用vim编写shell脚本并运行。
+  \item 熟悉常用的数据结构和算法，能较好的用合适的数据结构或者算法解决和优化问题。
+  \item 拥有全栈开发和架构设计的能力，熟悉Django框架下的web开发。
+  \item 熟悉sklearn和tensorflow框架下的机器学习开发。
+  
+\end{itemize}
+
+
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item CSDN: https://blog.csdn.net/lrzHHl
+  \item GitHub: https://github.com/Strke
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
